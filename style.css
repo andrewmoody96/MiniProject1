@@ -1,3 +1,56 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    line-height: 30px;
+    box-shadow: gray 0 4px 6px;
+}
+
+
+
+header a {
+    margin: 0 1em;
+}
+
 h1 {
-    color: red;
+    text-align:  center;
+    color: lightgreen;
+    font-size: 50px;
+    text-shadow: black -2px 2px 3px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#oreocow {
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+    border: 8px brown inset;
+}
+
+form {
+    background-color: lightsteelblue;
+    padding: 1em;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: black -2px 2px 3px;
+    font-size: 1.1em;
+}
+
+footer {
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.5em;
 }
